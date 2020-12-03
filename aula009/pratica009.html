@@ -4,99 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../favicons/myicon.ico" type="image/x-icon">
-    <title>Formatações | Como usar?</title>
+    <title>Lista | Como usar</title>
     <style>
-        body{
-            background-color: rgba(137, 43, 226, 0.555);
+        body {
+            background-color: rgba(137, 43, 226, 0.5);
         }
     </style>
 </head>
 <body>
-    <h1>Tipo de formatações e como usar</h1>
+    <h1>Tipos de listas</h1>
     <p>
-        Vejá essas imagen: <br>
-        <strong>Img 1:</strong>
-    </p>
-    <img src="imagem_Nmonoespacada.png" alt="img1"> <br>
-    <p>
-        <strong>Img 2:</strong>
-    </p>
-    <img src="imagem_Nmonoespacada2.png" alt="img2">
-    <p>
-        Veja que o caractere <strong>t</strong> da 
-        <strong>Img 1</strong> não tem o mesmo comprimento 
-        <br> do caractere <strong>E</strong> da <strong>Img 2</strong> 
-        e isso faz com que dificulte a <br> visualização de determinado 
-        exemplo de codigo, mas pra isso <br> temos a tag &lt;code&gt;. 
-        Veja um exemplo da ultilização da tag: <br>
-    </p>
-    <img src="ultilizando_apenas_a_tagCODE.png" alt="Code de Python"> <br>
-    <p>
-        Agr veja o resultado: <br>
-    </p>
-    <img src="resultado_codePython.png" alt=""><br>
-    <p>
-        Agora vamos ver se todos os caracteres estão monoespaçados:<br>
-        <strong>Img 1 monoespaçado</strong>:
-    </p>
-    <img src="imagem_monoespacada.png" alt="Imagem 1 monoespaçada"><br>
-    <p>
-        <strong>Img 2 monoespaçada:</strong>
-    </p>
-    <img src="imagem_monoespacada2.png" alt="Imagem 2 monoespaçada"><br>
-
-    <!--APRENDENDO A ULTILIZAR A TAG pre-->    
-    <p>
-        Veja agora que os caracteres <em>i</em> e <em>t</em> tem o mesmo 
-        comprimento. <br> Mas temos um outro problema, ao olhar pra imagem 
-        do resultado <br> do codigo de Python (.py) verá que não está da forma 
-        correta que <br> deve ser, que seria uma linha abaixo da outra e pra 
-        isso, temos a tag: <br>
-        <strong>&lt;pre&gt;</strong> essa tag vai considerar todos os espações e 
-        quebras de <br> linhas que tiver no codigo fonte, veja o exemplo da 
-        ultilização dessa <br> tag: <br>
-    </p>
-    <img src="ultilizando_a_tag_pre_e_code.png" alt="A tag pre e code"><br>
-    <p>
-        Agora veja o resultado: <br>
-    </p>
-    <img src="resultado_depos_do_codePython.png" alt="Codigo Python"><br>
-    <p>
-        Pode comparar o codigo fonte com o resultado e verá que a tag <br> 
-        considerou o espaçamento e as quebras de linha.
+        As listas, tem bastante ultilidades, sejam 
+        elas para <br> ordenadar determinado grupo 
+        de itens ou até mesmo apenas <br> agrupar 
+        itens sem nenhum tipo de ordem. E hoje vamos 
+        <br> aprender um pouco sobre elas.  
     </p>
 
-    <!--Outras Tags -->
-    <h2>Vejá algumas outras tags:</h2>
+    <h2>Ordenada:</h2>
+    <p>
+        A tag <strong>&lt;ol&gt;</strong> = <em>Ordered list</em> 
+        = Lista ordenada. Está tag que <br> será responsavel por 
+        ordenar a nossa lista, junto a essa <br> tag iremos ultilizar 
+        uma outra tag para poder especificar o <br> nosso item que é 
+        a tag <strong>&lt;li&gt;</strong>. Vejá um exemplo da ultilização: <br>
+    </p>
+    <img src="lista_ordenada.png" alt="Lista ordenada"><br>
+    <p>
+        Vejá o resultado: <br>
+    </p>
+    <img src="result_listaOrdenada.png" alt="Resultado Lista ordenada"><br>
+    <p>
+        Junto a essa tag temos alguns parâmetros que possa 
+        ser ultil <br> para você. Temos o <code><strong>type=" "</strong></code> 
+        que serve para você escolher o tipo <br> em que será mostrado 
+        essas definições. Vejá um exemplo do <br> <code><strong>type="A"</strong></code>: <br>
+    </p>
+    <img src="type_A_listaOrdenada.png" alt="Type A"><br>
+    <p>
+        Resultado: <br>
+    </p>
+    <img src="result_type_A_listaOrdenada.png" alt="Resultado do type A"><br>
+    <p>
+        Viu que no lugar dos numeros temos letra maiusculas?! 
+        <br> Essa que é a mudança!
+    </p>
 
-    <!--A tag q-->
+    <h2>Não ordenada:</h2>
     <p>
-        <strong>&lt;q&gt;</strong> ela é uma tag para citação, vejá um exemplo: <br>
+        Como já explicamos antes, a lista não ordenada pode 
+        sim <br> ter sua usabilidades.
     </p>
-    <img src="ultilizando_a_tag_q.png" alt="A tag q"> <br>
     <p>
-        Mas para momentos em que você está fazendo uma "metáfora", <br> 
-        como está que acabei de fazer, pode adicionar as aspas manualmente. <br>
+        <strong>&lt;ul&gt;</strong> = <em>unordered list</em> = 
+        Lista não ordenada. Nessa tag iremos <br> novamente 
+        ultilizara tag <strong>&lt;li&gt;</strong>, <br> que 
+        você já sabe do porque usar. Vejá um exemplo da ultilização: <br>
     </p>
-
-    <!--A tag blockquote-->
+    <img src="lista_NaoOrdenada.png" alt="Lista não ordenada"><br>
     <p>
-        <strong>&lt;blockquote&gt;</strong> ela serve para uma citação completa, 
-        exemplo seria <br> a frase de um determinado autor, vejá esse exemplo: <br>
+        Resultado: <br>
     </p>
-    <img src="result_citacaoCompleta.png" alt="Citação completa"><br>
-    <p>
-        Veja seu codigo fonte: <br>
-    </p>
-    <img src="ultilizacao_da_tag_blockquote.png" alt="Tag blockquote"><br>
-
-    <!--A tag abbr-->
-    <p>
-        <strong>&lt;abbr&gt;</strong> é uma tag para abreviações, ao passar o 
-        mouse por cima <br> dessa abreviação verá o significado, vejá: <br>
-        <abbr title="Hyper Text Markup Languagem">HTML</abbr>-<abbr title="Cascading Style Sheet">CSS</abbr><br>
-        vejá um exemplo da ultilização dessa tag: <br>
-    </p>
-    <img src="ultilizando_a_tag_abbr.png" alt="A tag abbr">
+    <img src="result_listaNaoOrdenada.png" alt="Resultado lista não ordenada">
 </body>
 </html>
