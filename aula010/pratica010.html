@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links | Como usar</title>
+</head>
+<body>
+    <h1>Links e âncoras</h1>
+    <p>
+        Os links são bastante ultil, vejá por <br> si só em 
+        sites que você navega, sempre <br> tem um link que 
+        vai te levar para alguma <br> outra pagina, video, 
+        audio etc. E hoje vamos <br> aprender a ultilizar 
+        alguns tipos de link. <br>
+        Ja vou te adintar que a tag "base" é: <br>
+        <code>
+            <strong>&lt;a href=""&gt; &lt;/a&gt;</strong>
+        </code><br>
+        Onde o <u>atributo</u> <code>href=""</code> = 
+        Reference of HyperText <br> será onde você irá 
+        adicionar o endereço da pagina. <br>
+        Agora vamos para praticá.
+    </p>
+
+    <h2>Link externo</h2>
+    <p>
+        Vejá um exemplo de sua ultilização:
+    </p>
+    <img src="linkExterno.png" alt="Link externo"><br>
+    <p>
+        Resultado: <br>
+        <code>
+            Você também pode acessar o <a href="https://youtube.com/cursoemvideo">canal gratuito</a> 
+            do Gustavo guanabara.
+        </code> <br>
+        Ao clicar no link você será redirecionado para o canal <br> 
+        do professor Gustavo guanabara. <br>
+        <blockquote>
+            Ao adiconar um link externo de um outro site <br> o 
+            recomendado é usar um outro atributo: <br> O 
+            <strong><code>target="_blank"</code></strong> ele 
+            vai abrir uma pagina <br> em branco. Exemplo: <br>
+            <img src="linkExterno_newAba.png" alt="Link externo em uma nova aba">
+        </blockquote>
+
+    </p>
+
+    <h1>Link interno</h1>
+    <p>
+        O link interno vai ser ultil para a navegação entre <br> 
+        paginas no seu site. Vamos ultilizar a mesma tag <br> 
+        anterior, mas desta vez no tributo 
+        <strong><code>href="caminho_da_outra_page"</code></strong> vamos <br>
+        adicionar o caminho da outra pagina (pasta por pasta). <br> Exemplo: 
+        <a href="pages/page2.html">Pagina 2</a><br>
+        <strong>Codigo fonte</strong>: <br>
+        <code>
+            &lt;a href="pages/page2.html"&gt;Pagina 2&lt;/a&gt;
+        </code>
+    </p>
+    
+    <h2>Link para dawnload</h2>
+    <p>
+        Crie uma pasta onde você vai disponibilizar o <br> arquivo para 
+        download, pós isso iremos ultilizar <br> a mesma tag anterior 
+        ( <code>&lt;a href="caminho_do_arquivo"&gt; &lt;/a&gt;</code> ), 
+        onde no <br> <strong><code>href=""</code></strong> você irá adicionar 
+        o caminho do arquivo ( pasta por pasta. <br> Vamos ultilizar mais um 
+        outro atributo ( <strong><code>download="nome do arquivo"</code></strong> ), 
+        <br>mas lembre-se, <em>possa ser que esse atributo não funcione no seu 
+            navegador</em>, mas não se preocupe. <br>
+        <a href="livro/10 - Ligações em toda parte.pdf" download="Ligações em toda parte">Baixar livro do Gunabara</a> <br>
+        <strong>Codigo fonte</strong>: <br>
+        <code>&lt;a href="livro/10 - Ligação em toda parte.pdf" download="Ligação em toda parte"&gt;</code>
+    </p>
+</body>
+</html>
