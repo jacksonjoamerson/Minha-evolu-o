@@ -1,0 +1,9 @@
+---------------------------------------------------------
+                   LEIA ME
+---------------------------------------------------------
+
+Nessa pasta irei postar varios desafios, 
+seja desafios do curso em si (CEV - Curso em Video) ou desafios 
+que eu mesmo elaborei. Cada desafio será organizado em uma pasta onde haverá:
+1 - Explicação do desafio
+2 - Desafio
